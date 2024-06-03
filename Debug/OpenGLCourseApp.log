@@ -1,0 +1,68 @@
+﻿  main.cpp
+C:\Users\Komputer\Documents\Visual Studio 2022\Projects\OpenGLCourseApp\OpenGLCourseApp\main.cpp(203,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+DirectionalLight.obj : error LNK2019: unresolved external symbol __imp____glewUniform1f referenced in function "public: void __thiscall DirectionalLight::UseLight(float,float,float,float)" (?UseLight@DirectionalLight@@QAEXMMMM@Z)
+Material.obj : error LNK2001: unresolved external symbol __imp____glewUniform1f
+PointLight.obj : error LNK2001: unresolved external symbol __imp____glewUniform1f
+SpotLight.obj : error LNK2001: unresolved external symbol __imp____glewUniform1f
+DirectionalLight.obj : error LNK2019: unresolved external symbol __imp____glewUniform3f referenced in function "public: void __thiscall DirectionalLight::UseLight(float,float,float,float)" (?UseLight@DirectionalLight@@QAEXMMMM@Z)
+main.obj : error LNK2001: unresolved external symbol __imp____glewUniform3f
+PointLight.obj : error LNK2001: unresolved external symbol __imp____glewUniform3f
+SpotLight.obj : error LNK2001: unresolved external symbol __imp____glewUniform3f
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function "public: bool __thiscall Window::getShouldClose(void)" (?getShouldClose@Window@@QAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function "public: void __thiscall Window::swapBuffers(void)" (?swapBuffers@Window@@QAEXXZ)
+main.obj : error LNK2019: unresolved external symbol __imp____glewUniformMatrix4fv referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp____glewUseProgram referenced in function _main
+Shader.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewBindBuffer referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewBufferData referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewDeleteBuffers referenced in function "public: void __thiscall Mesh::ClearMesh(void)" (?ClearMesh@Mesh@@QAEXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewGenBuffers referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewEnableVertexAttribArray referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewVertexAttribPointer referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewBindVertexArray referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewDeleteVertexArrays referenced in function "public: void __thiscall Mesh::ClearMesh(void)" (?ClearMesh@Mesh@@QAEXXZ)
+Mesh.obj : error LNK2019: unresolved external symbol __imp____glewGenVertexArrays referenced in function "public: void __thiscall Mesh::CreateMesh(float *,unsigned int *,unsigned int,unsigned int)" (?CreateMesh@Mesh@@QAEXPAMPAIII@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ) referenced in function "public: void __thiscall Model::LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ) referenced in function "public: void __thiscall Model::LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z) referenced in function "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z)
+Model.obj : error LNK2019: unresolved external symbol "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ) referenced in function "public: void __thiscall Model::LoadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadModel@Model@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTextureCount referenced in function "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z)
+Model.obj : error LNK2019: unresolved external symbol _aiGetMaterialTexture referenced in function "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewAttachShader referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewCompileShader referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewCreateProgram referenced in function "private: void __thiscall Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AAEXPBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewCreateShader referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewDeleteProgram referenced in function "public: void __thiscall Shader::ClearShader(void)" (?ClearShader@Shader@@QAEXXZ)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewGetProgramInfoLog referenced in function "private: void __thiscall Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AAEXPBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewGetProgramiv referenced in function "private: void __thiscall Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AAEXPBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewGetShaderInfoLog referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewGetShaderiv referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewGetUniformLocation referenced in function "private: void __thiscall Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AAEXPBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewLinkProgram referenced in function "private: void __thiscall Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AAEXPBD0@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewShaderSource referenced in function "private: void __thiscall Shader::AddShader(unsigned int,char const *,unsigned int)" (?AddShader@Shader@@AAEXIPBDI@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewUniform1i referenced in function "public: void __thiscall Shader::SetPointLights(class PointLight *,unsigned int)" (?SetPointLights@Shader@@QAEXPAVPointLight@@I@Z)
+Shader.obj : error LNK2019: unresolved external symbol __imp____glewValidateProgram referenced in function "private: void __thiscall Shader::CompileShader(char const *,char const *)" (?CompileShader@Shader@@AAEXPBD0@Z)
+Texture.obj : error LNK2019: unresolved external symbol __imp____glewActiveTexture referenced in function "public: void __thiscall Texture::UseTexture(void)" (?UseTexture@Texture@@QAEXXZ)
+Texture.obj : error LNK2019: unresolved external symbol __imp____glewGenerateMipmap referenced in function "public: bool __thiscall Texture::LoadTexture(void)" (?LoadTexture@Texture@@QAE_NXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp__glewGetErrorString@4 referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function "public: __thiscall Window::~Window(void)" (??1Window@@QAE@XZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwDestroyWindow referenced in function "public: __thiscall Window::~Window(void)" (??1Window@@QAE@XZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "private: static void __cdecl Window::handleKeys(struct GLFWwindow *,int,int,int,int)" (?handleKeys@Window@@CAXPAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetFramebufferSize referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetWindowUserPointer referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwGetWindowUserPointer referenced in function "private: static void __cdecl Window::handleKeys(struct GLFWwindow *,int,int,int,int)" (?handleKeys@Window@@CAXPAUGLFWwindow@@HHHH@Z)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "private: void __thiscall Window::createCallbacks(void)" (?createCallbacks@Window@@AAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function "private: void __thiscall Window::createCallbacks(void)" (?createCallbacks@Window@@AAEXXZ)
+Window.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+Window.obj : error LNK2019: unresolved external symbol __imp__glewExperimental referenced in function "public: int __thiscall Window::Initialise(void)" (?Initialise@Window@@QAEHXZ)
+C:\Users\Komputer\Documents\Visual Studio 2022\Projects\OpenGLCourseApp\\..\..\..\External Libraries\GLEW\lib\Release\x64\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Komputer\Documents\Visual Studio 2022\Projects\OpenGLCourseApp\\..\..\..\External Libraries\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Komputer\Documents\Visual Studio 2022\Projects\OpenGLCourseApp\\..\..\..\External Libraries\AASIMP\lib\assimp.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Komputer\Documents\Visual Studio 2022\Projects\OpenGLCourseApp\Debug\OpenGLCourseApp.exe : fatal error LNK1120: 55 unresolved externals

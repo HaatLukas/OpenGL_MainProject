@@ -1,0 +1,4 @@
+﻿  Grafika_26_05_2024.cpp
+C:\Users\Komputer\Documents\Visual Studio 2022\Projects\Grafika_26_05_2024\Grafika_26_05_2024\Grafika_26_05_2024.cpp(99,24): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\Komputer\Documents\Visual Studio 2022\Projects\Grafika_26_05_2024\Grafika_26_05_2024\Grafika_26_05_2024.cpp(455,15): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  Grafika_26_05_2024.vcxproj -> C:\Users\Komputer\Documents\Visual Studio 2022\Projects\Grafika_26_05_2024\x64\Debug\Grafika_26_05_2024.exe
